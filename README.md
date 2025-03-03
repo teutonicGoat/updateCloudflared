@@ -15,4 +15,6 @@ Powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\logs\updateCloudflared.
 ```
 
 Can also modify log file location with:
+```cmd
 powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\logs\updateCloudflared.ps1" -logFile "C:\Prefered\Log\Path\cloudflared-updater.log"
+```
